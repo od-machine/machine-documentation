@@ -1,4 +1,4 @@
-Welcome Maor to Lumache's documentation!
+Welcome ODM to Lumache's documentation!
 ===================================
 
 **Lumache** (/lu'make/) is a Python library for cooks and food lovers
