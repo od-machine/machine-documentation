@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'ODM'
+copyright = '2022, Israel'
+author = 'ODM'
 
 release = '0.1'
 version = '0.1.0'
@@ -12,6 +12,7 @@ version = '0.1.0'
 # -- General configuration
 
 extensions = [
+    "sphinx_rtd_theme",
     'sphinx.ext.duration',
     'sphinx.ext.doctest',
     'sphinx.ext.autodoc',

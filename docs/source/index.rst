@@ -1,22 +1,19 @@
-Welcome ODM to Lumache's documentation!
-===================================
+Welcome to ODM's documentation!
+===============================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+**ODM** specializes in the real-time correlation of huge volumes of biomedical data, including medical records, DNA and RNA sequencing, and medical images. By means of its AI capabilities, that integrate machine learning, the Company provides customized analysis, interpretation, diagnostics, and forecasting that can be applied to any medical task.
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+more details: `ODM Website <https://www.odmachine.com/>`_
+
 
 .. note::
 
    This project is under active development.
 
-Contents
---------
-
 .. toctree::
-
-   usage
-   api
+   :maxdepth: 3
+   :caption: ODM’s Products
+   
+   platform/platform
+   ppm/ppm
+   investigation/investigation
