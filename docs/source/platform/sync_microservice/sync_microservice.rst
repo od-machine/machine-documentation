@@ -1,4 +1,4 @@
-SYNC-MICROSERVICE
+SYNC Micro-Service
 =================
 
 .. toctree::
