@@ -1,3 +1,6 @@
+Functions
+---------
+
 .. function:: upload_conditions(recommendations_df) -> None:
     
     Call function to create all conditions nodes and relationships.

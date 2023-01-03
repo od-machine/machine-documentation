@@ -1,3 +1,6 @@
+Functions
+---------
+
 :kbd:`Recommendations:`
 
 .. function:: upload_recommendations() -> DataFrame:
