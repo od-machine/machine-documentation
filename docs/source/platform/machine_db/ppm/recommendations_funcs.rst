@@ -1,6 +1,3 @@
-Functions
----------
-
 :kbd:`Recommendations:`
 
 .. function:: upload_recommendations() -> DataFrame:
@@ -36,7 +33,7 @@ Functions
 
 .. function:: create_recommendations(recommendations_df) -> None:
     
-    Call `add_recomendations_to_postgresql` to add the recommendations to postgreSQL.
+    Call `add_recomendations_to_postgresql` to add the recommendations to postgresql.
 
     Add the odm_id to the *recommendations_df*.
     

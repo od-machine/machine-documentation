@@ -11,9 +11,8 @@ more details: `ODM Website <https://www.odmachine.com/>`_
    This project is under active development.
 
 .. toctree::
-   :maxdepth: 3
-   :caption: ODM’s Products
+   :maxdepth: 2
+   :caption:
    
    platform/platform
-   ppm/ppm
-   investigation/investigation
+   services/services
