@@ -64,8 +64,8 @@ Conditions
     
     Extract general conditions DataFrame.
 
-    1. call ׳conversion_of_column_to_lists_by_comma_and_then_to_one_list׳.
-    2. add condition id
+    1. Call ׳conversion_of_column_to_lists_by_comma_and_then_to_one_list׳.
+    2. Add condition id
 
     :param Condition_Id: all conditions ids.
     :type Condition_Id: list
@@ -199,4 +199,3 @@ Conditions
     :param node_id_name: the id property naem of the given label (Condition_Id/Origin_Odm_Id).
     :type node_id_name: str
     :return: list of relations dictionaries.
-
