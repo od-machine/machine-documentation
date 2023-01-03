@@ -10,3 +10,5 @@
    machine_db/machine_db
    machine_ai/machine_ai
    machine_angine/machine_angine
+   ppm_microservice/ppm_microservice
+   sync_microservice/sync_microservice
