@@ -1,5 +1,5 @@
-PLATFORM
-========
+:guilabel:`PLATFORM`
+===================
 
 .. important:: An explanation must be added
 
