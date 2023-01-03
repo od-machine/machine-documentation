@@ -2,4 +2,4 @@ Conditions
 ==========
 
 .. toctree::
-   conditions_functions
+   conditions_funcs
