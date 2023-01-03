@@ -14,7 +14,7 @@ A product to provide health insurance policyholders with individualized recommen
 Machine-DB
 ~~~~~~~~~~
 
-Index of the medical recommendations for the graph.
+Index of the medical recommendations to the graph.
 
 1. The recommendations are taken from multiple sources, the largest data was taken from the MOH recommendation document 
 
