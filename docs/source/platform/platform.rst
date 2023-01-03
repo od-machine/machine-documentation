@@ -4,7 +4,7 @@
 .. important:: An explanation must be added
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 2
 
    main_platform
    microservices

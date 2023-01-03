@@ -11,7 +11,7 @@ more details: `ODM Website <https://www.odmachine.com/>`_
    This project is under active development.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    
    platform/platform
    services/services
