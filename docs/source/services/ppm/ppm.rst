@@ -32,14 +32,11 @@ index patient API
 
    **Parameters**:
 
-      - path_patient_details: string (required)
-      Description: Path to the patient details in S3 bucket.
+   :path_patient_details: string (required), Path to the patient details in S3 bucket.
 
-      - client: string (required)
-      Description: The client name
+   :client: string (required), The client name.
 
-      - host_client: string (required)
-      Description: The host client name
+   :host_client: string (required), The host client name.
 
 
    **Response**:
@@ -71,8 +68,8 @@ index patient API
 
       {
          "path_patient_details": "PPM/Forms/Patient_Data/P10000/10000_2022-09-07-06-46-12.json",
-         "host_client": "femi", 
-         "client": "ayalon"
+         "host_client": "host_client_name", 
+         "client": "client_name"
       }
 
 
