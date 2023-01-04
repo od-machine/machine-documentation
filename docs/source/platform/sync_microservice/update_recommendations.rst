@@ -1,3 +1,5 @@
+Update_Recommendation functions
+===============================
 
 .. function:: get_winter_patients_from_arango(client: Type[ArangoClient]) -> List[Dict[str, Any]]
 

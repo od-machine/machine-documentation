@@ -1,4 +1,4 @@
-.. _ppm-microservice:
+.. _sync-microservice:
 
 SYNC Micro-Service
 =================

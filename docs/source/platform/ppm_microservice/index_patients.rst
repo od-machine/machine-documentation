@@ -1,5 +1,5 @@
-Index_Patients
-==============
+Index_Patients functions
+========================
 
 .. function:: read_json_file_from_s3(path_in_s3: str, bucketS3: object) -> dict
 
