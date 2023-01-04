@@ -8,13 +8,15 @@ A product to provide health insurance policyholders with individualized recommen
 Prerequisites
 ~~~~~~~~~~~~~
 
-Medical recommendations data should be indexed onto the neo4j graph.
+**Medical recommendations data should be indexed onto the neo4j graph.**
 
 .. image:: ppm_graph.png
 
-Data for the recommendations was taken from several sources, but the majority came from the MOH 2022 recommendation document, along with references and links to the reference articles for further information.
+* Data for the recommendations was taken from several sources, the majority came from the MOH 2022 recommendation document.
 
-Every recommendation is tailored to specific groups of the population based on a number of factors, such as their age (minimum/maximum), gender, biochemical variables, and other factors.
+* In addition to the recommendations, there are links to articles and links that provide further information.
+
+* Every recommendation is tailored to specific groups of the population based on a number of factors, such as their age (minimum/maximum), gender, biochemical variables, and other factors.
 
 
 
@@ -36,15 +38,11 @@ index patient API
 
    :host_client: string (required), The host client name.
 
-
    **Responses**:
 
    :statuscode 200: The patient index's has been successful.
-   
    :statuscode 500: The function get some error.
-
    :statuscode 404: There's an error in the input parameters.
-
 
    **Example request**:
 
@@ -60,7 +58,7 @@ index patient API
       )
       print(response.json())
 
-   The content of ``body.json`` is like,
+   The content of ``body.json`` is like:
 
    .. sourcecode:: json
 
@@ -70,22 +68,30 @@ index patient API
          "client": "client_name"
       }
 
-   Check out the :ref:`reference-name` section for further information about the API implementation.
+   Check out the :ref:`ppm-microservice` section for further information about the API implementation.
 
 
-
-
-Sync-Microservice
-~~~~~~~~~~~~~~~~~
-
-The purpose of this microservice is to match each patient with the recommendations intended for him, to upload recommendations to S3 and to create connections between the patients and their recommendations in ArangoDB.
 
 update recommendations API
 ++++++++++++++++++++++++++
 
 :kbd:`POST /api/v1/ppm/update_patients_conditions_and_recommendations`
 
-   Index the patient's questionaire details to the ArangoDB.
+   Creates recommendations files and uploads them to the S3 bucket.
+
+   **Parameters**:
+
+   :path_patient_details: string (required), Path to the patient details in S3 bucket.
+
+   :client: string (required), The client name.
+
+   :host_client: string (required), The host client name.
+
+   **Example response**:
+
+   :statuscode 200: Successfully updated the patients.
+   :statuscode 500: The function get error.
+   :statuscode 404: There's an error in the input parameters.
 
    **Example request**:
 
@@ -101,15 +107,13 @@ update recommendations API
       )
       print(response.json())
 
-   The content of ``body.json`` is like,
+   The content of ``body.json`` is like:
 
    .. sourcecode:: json
 
       {
-         "host_client": "femi", 
-         "client": "ayalon"
+         "host_client": "host_client_name", 
+         "client": "client_name"
       }
 
-   **Example response**:
-
-   :statuscode 200: Successfully updated the patients
+   Check out the :ref:`sync-microservice` section for further information about the API implementation.
