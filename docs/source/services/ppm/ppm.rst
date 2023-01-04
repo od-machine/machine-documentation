@@ -8,7 +8,7 @@ A product to provide health insurance policyholders with individualized recommen
 Prerequisites
 ~~~~~~~~~~~~~
 
-**Medical recommendations data should be indexed onto the neo4j graph.**
+Medical recommendations data should be indexed onto the neo4j graph.
 
 .. image:: ppm_graph.png
 
@@ -18,6 +18,11 @@ Prerequisites
 
 * Every recommendation is tailored to specific groups of the population based on a number of factors, such as their age (minimum/maximum), gender, biochemical variables, and other factors.
 
+
+Architecture
+~~~~~~~~~~~~
+
+.. image:: ppm_architecture.png
 
 
 APIs
