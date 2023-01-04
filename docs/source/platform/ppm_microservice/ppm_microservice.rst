@@ -1,3 +1,5 @@
+.. _reference-name:
+
 PPM Micro-Service
 =================
 

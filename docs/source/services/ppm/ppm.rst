@@ -28,8 +28,6 @@ index patient API
 
    Index the patient's questionaire details from S3 bucket to the ArangoDB.
 
-   Check out the :doc:`PPM-Microservice <docs/source/platform/ppm_microservice/ppm_microservice.rst>` section for further information about the API implementation.
-
    **Parameters**:
 
    :path_patient_details: string (required), Path to the patient details in S3 bucket.
@@ -39,7 +37,7 @@ index patient API
    :host_client: string (required), The host client name.
 
 
-   **Response**:
+   **Responses**:
 
    :statuscode 200: The patient index's has been successful.
    
@@ -71,6 +69,9 @@ index patient API
          "host_client": "host_client_name", 
          "client": "client_name"
       }
+
+   Check out the :ref:`reference-name` section for further information about the API implementation.
+
 
 
 
