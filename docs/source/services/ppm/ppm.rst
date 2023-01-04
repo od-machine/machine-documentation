@@ -5,38 +5,51 @@ A product to provide health insurance policyholders with individualized recommen
 .. image:: ppm_flow.png
 
 
-.. contents:: PPM's repositories
-   :local:
-   :backlinks: none
-   :depth: 3
+Prerequisites
+~~~~~~~~~~~~~
 
-
-Machine-DB
-~~~~~~~~~~
-
-Index of the medical recommendations to the graph.
-
-1. The recommendations are taken from multiple sources, the largest data was taken from the MOH recommendation document 
-
-2. For each recommendation we also have a reference and link to the reference article that our recommendation is based on. 
-
-3. Each recommendation is fit to specific groups in the population according to a lot of properties such as: age (min/max), gender,family history of illness, and other environmental variables, place of residence, odm_id etc.
-
+Medical recommendations data should be indexed onto the neo4j graph.
 
 .. image:: ppm_graph.png
 
+Data for the recommendations was taken from several sources, but the majority came from the MOH 2022 recommendation document, along with references and links to the reference articles for further information.
 
-PPM-Microservice
-~~~~~~~~~~~~~~~~~
+Every recommendation is tailored to specific groups of the population based on a number of factors, such as their age (minimum/maximum), gender, biochemical variables, and other factors.
 
-The purpose of this microservice is upload the patients data to ArangoDB.
+
+
+APIs
+~~~~
 
 index patient API
 +++++++++++++++++
 
 :kbd:`POST /api/v1/ppm/index_ppm_patient`
 
-   Index the patient's questionaire details to the ArangoDB.
+   Index the patient's questionaire details from S3 bucket to the ArangoDB.
+
+   Check out the :doc:`PPM-Microservice <docs/source/platform/ppm_microservice/ppm_microservice.rst>` section for further information about the API implementation.
+
+   **Parameters**:
+
+      - path_patient_details: string (required)
+      Description: Path to the patient details in S3 bucket.
+
+      - client: string (required)
+      Description: The client name
+
+      - host_client: string (required)
+      Description: The host client name
+
+
+   **Response**:
+
+   :statuscode 200: The patient index's has been successful.
+   
+   :statuscode 500: The function get some error.
+
+   :statuscode 404: There's an error in the input parameters.
+
 
    **Example request**:
 
@@ -62,9 +75,6 @@ index patient API
          "client": "ayalon"
       }
 
-   **Example response**:
-
-   :statuscode 200: The patient index's has been successful
 
 
 Sync-Microservice
