@@ -5,7 +5,6 @@
 
 .. toctree::
     :maxdepth: 2
-    :caption: Contents:
 
     ppm/ppm
     investigation/investigation

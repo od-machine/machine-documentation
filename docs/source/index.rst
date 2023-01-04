@@ -14,7 +14,5 @@ more details: `ODM Website <https://www.odmachine.com/>`_
    :maxdepth: 3
    
    platform/platform
-
    services/services
-   
    internal_documentation/internal_documentation
