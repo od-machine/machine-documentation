@@ -1,10 +1,9 @@
 :guilabel:`SERVICES`
 ====================
 
-.. important:: An explanation must be added
-
 .. toctree::
     :maxdepth: 2
 
     ppm/ppm
     investigation/investigation
+    optima_stroke/optima_stroke

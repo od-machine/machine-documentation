@@ -27,7 +27,36 @@ The machine DB is the Where & How the data is saved in the platform.
    +-----------------------------------+-----------------------------+
 
 
-Libraries:
+Functionality
+-------------
+
+* Normalize
+   The platform provides collection services that recognize  the source data types and normalize all of it for upload.
+
+* Modelling 
+   
+   * The Platform provides modelling process constructed  by our:
+
+   * Medical experts
+
+   * Data experts
+
+* Indexing
+
+   The platform provides auto indexing services, once the platform is Normalized & Modelized, the indexing services index data onto the ODM graph
+
+* Compliance
+   
+   * Option for anonymizing services
+
+      * The platform provides build-in anonymizing services and each new anonymizing use case became to an automatic service.
+
+   * Security (credentials, data ownership, etc)
+
+      * The platform is build in a secure manner by design.
+
+
+Libraries
 ---------
 
 .. toctree::

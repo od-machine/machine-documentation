@@ -54,28 +54,7 @@ Connection to AWS CodeArtifact:
 
     **Option I (recommended) - define index-url path:** (if you're using windows read Appendix B)
 
-        * Open new terminal
-        * Type :
-        
-        .. code-block:: 
-            
-            export AWS_ACCOUNT_ID=$(aws sts get-caller-identity --query Account --output text)
-        
-        * Type: 
-        
-        .. code-block:: 
-            
-            export CODEARTIFACT_AUTH_TOKEN=$(aws codeartifact get-authorization-token --domain odm-core --domain-owner "${AWS_ACCOUNT_ID}" --query authorizationToken --output text)
-        
-        * Type: 
-        
-        .. code-block:: 
-            
-            export PIP_INDEX_URL="https://aws:${CODEARTIFACT_AUTH_TOKEN}@odm-core-${AWS_ACCOUNT_ID}.d.codeartifact.eu-central-1.amazonaws.com/pypi/odm-core/simple/"
-        
-        OR
-        
-        You can run the above commands by one line:
+        * Open new terminal and run:
         
         .. code-block:: 
             
@@ -103,10 +82,9 @@ Connection to AWS CodeArtifact:
         
         Read more about this option `here <https://www.jfrog.com/confluence/display/JFROG/PyPI+Repositories>`_
 
-    **Option II - login to AWS CodeArtifact: **
+    **Option II - login to AWS CodeArtifact:**
 
-        * Open new terminal
-        * Run:
+        * Open new terminal and run:
         
         .. code-block:: 
             

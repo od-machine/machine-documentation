@@ -1,7 +1,7 @@
 Main Platform
 =============
 
-.. important:: An explanation must be added
+.. image:: platform_architecture.png
 
 .. toctree::
    :maxdepth: 2

@@ -1,4 +1,7 @@
 INVESTIGATION
 =============
 
-.. important:: An explanation must be added
+.. toctree::
+
+   grouping
+   scoring
