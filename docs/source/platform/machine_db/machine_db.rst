@@ -18,7 +18,6 @@ The machine DB is the Where & How the data is saved in the platform.
    +-----------------------------------+-----------------------------+
    | Data Types                        | Data Source                 |
    +===================================+=============================+
-   | - Data types                      | - Data source               |
    | - Text & numerics                 | - Payer (insurance)         |
    | - Images                          | - Providers                 |
    | - EHR (electronic health records) | - Labs                      |

@@ -50,7 +50,7 @@ Connect to S3 bucket:
     bucket_name = os.environ["BUCKET_NAME"]
     buckets3 = S3Handler(bucket_name, access_key, secret_access_key)
 
-Now, you can perform various actions on your S3 buckets.<br/>
+Now, you can perform various actions on your S3 buckets.
 Here is an example of getting a list of all files in a folder on Nuete bucket:
 
 .. sourcecode:: python
