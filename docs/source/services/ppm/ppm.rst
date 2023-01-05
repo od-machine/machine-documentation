@@ -1,6 +1,6 @@
 PPM
 ===
-A product to provide health insurance policyholders with individualized recommendations for diagnostic testing, promoting preventive and personalized health.
+A product to provide health insurance policy holders with individualized recommendations for diagnostic testing, promoting preventive and personalized health.
 
 .. image:: ppm_flow.png
 
@@ -28,7 +28,7 @@ Architecture
 APIs
 ~~~~
 
-index patient API
+Index patient API
 +++++++++++++++++
 
 :kbd:`POST /api/v1/ppm/index_ppm_patient`
@@ -76,7 +76,7 @@ index patient API
    Check out the :ref:`ppm-microservice` section for further information about the API implementation.
 
 
-update recommendations API
+Update recommendations API
 ++++++++++++++++++++++++++
 
 :kbd:`POST /api/v1/ppm/update_patients_conditions_and_recommendations`
