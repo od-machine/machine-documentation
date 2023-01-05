@@ -8,8 +8,8 @@ ODM core
    installation
    usage
 
-**Publish a new package version**
+**Publish a new version**
 
-Check out the :ref:`publish_odmcore` section for further information about publish a new version.
+Check out this section: :ref:`publish_odmcore`.
 
 

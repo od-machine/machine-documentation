@@ -31,6 +31,7 @@ Functionality
 -------------
 
 * Normalize
+   
    The platform provides collection services that recognize  the source data types and normalize all of it for upload.
 
 * Modelling 
