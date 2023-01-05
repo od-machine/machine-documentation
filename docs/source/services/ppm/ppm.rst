@@ -5,6 +5,12 @@ A product to provide health insurance policy holders with individualized recomme
 .. image:: ppm_flow.png
 
 
+Architecture
+~~~~~~~~~~~~
+
+.. image:: ppm_architecture.png
+
+
 Prerequisites
 ~~~~~~~~~~~~~
 
@@ -17,12 +23,6 @@ Medical recommendations data should be indexed onto the neo4j graph.
 * In addition to the recommendations, there are links to articles and links that provide further information.
 
 * Every recommendation is tailored to specific groups of the population based on a number of factors, such as their age (minimum/maximum), gender, biochemical variables, and other factors.
-
-
-Architecture
-~~~~~~~~~~~~
-
-.. image:: ppm_architecture.png
 
 
 APIs
