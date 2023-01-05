@@ -10,6 +10,6 @@ ODM core
 
 **Publish a new package version**
 
-Check out the :ref:`_publish_odmcore` section for further information about publish a new version.
+Check out the :ref:`publish_odmcore` section for further information about publish a new version.
 
 
