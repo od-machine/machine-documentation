@@ -1,5 +1,5 @@
 Usage
------
+=====
 
 neo4j handler
 ~~~~~~~~~~~~~
@@ -32,8 +32,8 @@ Connect to neo4j servers:
     # connect to neo4j remote server
     graphDB = Neo4jHandler(neo4j_lb = neo4j_lb, neo4j_db = neo4j_db, secret_name = secret_name, aws_access_key = access_key, aws_secret_access_key = secret_access_key)
 
-now, you can use every function in neo4j class.
-for example you can fetch data from the graph: 
+Now, you can use every function in neo4j class.
+For example you can fetch data from the graph: 
 
 .. sourcecode:: python
 
@@ -76,11 +76,12 @@ Connect to postgres localhost:
 In order to test your code on localhost you have to install 
 postgres on your machine.
 
-`Here <https://medium.com/@viviennediegoencarnacion/getting-started-with-postgresql-on-mac-e6a5f48ee399>`_.
+`Here <https://medium.com/@viviennediegoencarnacion/getting-started-with-postgresql-on-mac-e6a5f48ee399>`_
 you can find a guide for postgres installation on mac.
-NOTE : it is important to define a new role for your username and password.
 
-After postgres is installed you can use Pg-admin to connect to the local server 
+NOTE : It is important to define a new role for your username and password.
+
+After postgres is installed you can use pg-admin to connect to the local server 
 as described `here <https://www.postgresqltutorial.com/postgresql-getting-started/connect-to-postgresql-database/>`_.
 
 Build an instance of the PostgresHandler class in order to connect to 
@@ -104,7 +105,7 @@ Connect to postgres remote database:
     secret_name = os.environ['POSTGRES_SECRET']
     postgres_hostname = os.environ['POSTGRES_HOST']
     postgres_db = os.environ['POSTGRES_DB']
-    secret_region_name = "eu-central-1"
+    secret_region_name = os.environ['REGION']
     #connect to postgres database
     postgres = PostgresHandler(postgres_hostname, postgres_db, access_key, secret_access_key, secret_region_name, secret_name)
 
