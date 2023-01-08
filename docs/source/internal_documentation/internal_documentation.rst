@@ -2,8 +2,8 @@
 =================================
 
 .. toctree::
-   :maxdepth: 2
-   
+   :maxdepth: 1
+
    machine_db/machine_db
    odm_core/odm_core
    common_uses
