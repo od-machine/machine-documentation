@@ -1,5 +1,7 @@
 :kbd:`White frame`
 
+:guilabel:`Blue frame`
+
 
 ``Red highlight``
 
@@ -9,6 +11,9 @@
 
 
 .. rst:: pull-quote
+
+
+.. rst:directive:: pull-quote
 
 
 .. http:get::  /api/v2/project/
