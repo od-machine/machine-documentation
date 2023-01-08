@@ -8,3 +8,4 @@ Micro-Services functions implementation documentation.
 
    ppm_microservice/ppm_microservice
    sync_microservice/sync_microservice
+   machine-engine_microservice/machine-engine_microservice
