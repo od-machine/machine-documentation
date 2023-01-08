@@ -14,16 +14,23 @@ Architecture
 Prerequisites
 ~~~~~~~~~~~~~
 
-Medical recommendations data should be indexed onto the neo4j graph.
+1. Medical recommendations data should be indexed onto the neo4j graph.
 
-.. image:: ppm_graph.png
+   .. image:: ppm_graph.png
 
-* Data for the recommendations was taken from several sources, the majority came from the MOH 2022 recommendation document.
+   * Data for the recommendations was taken from several sources, the majority came from the MOH 2022 recommendation document.
 
-* In addition to the recommendations, there are links to articles and links that provide further information.
+   * In addition to the recommendations, there are links to articles and links that provide further information.
 
-* Every recommendation is tailored to specific groups of the population based on a number of factors, such as their age (minimum/maximum), gender, biochemical variables, and other factors.
+   * Every recommendation is tailored to specific groups of the population based on a number of factors, such as their age (minimum/maximum), gender, biochemical variables, and other factors.
 
+2. Both the questionnaire file and the metadata file should be in the correct place in S3.
+
+   For example for patient number 10000 that uploaded to S3 in 9/7/22 6:46:12 the S3 hierarchy is:
+
+      Questionnaire file: ``PPM/Forms/Patient_Data/P10000/10000_2022-09-07-06-46-12.json``ß
+
+      Metadata file: ``PPM/Forms/Metadata//P10000/10000_2022-09-07-06-46-12.json``
 
 APIs
 ~~~~
@@ -33,7 +40,7 @@ Index patient API
 
 :kbd:`POST /api/v1/ppm/index_ppm_patient`
 
-   Index the patient's questionaire details from S3 bucket to the ArangoDB.
+   Index the patient's questionnaire details from S3 bucket to the ArangoDB.
 
    **Parameters**:
 
