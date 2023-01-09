@@ -1,11 +1,11 @@
-def foo(bar) -> int:
+def foo(x) -> int:
     """
     This is a docstring.
 
     :param bar: This is a parameter.
-    :type bar: Any
+    :type x: int
     :return: This is a return value.
     :rtype: int
     """
     ...
-    print('bar')
+    print('foo')
