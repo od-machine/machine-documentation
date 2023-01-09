@@ -1,7 +1,7 @@
 test functions
 ==============
 
-.. automodule:: test
+.. automodule:: test/test
    :members:
    :undoc-members:
    :show-inheritance:
@@ -9,7 +9,7 @@ test functions
 test sync functions
 ===================
 
-.. automodule:: test_sync
+.. automodule:: test/test_sync
    :members:
    :undoc-members:
    :show-inheritance:
