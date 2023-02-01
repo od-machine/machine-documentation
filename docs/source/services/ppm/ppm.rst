@@ -80,21 +80,6 @@ Upload patient API
 
    Check out the :ref:`ppm-microservice` section for further information about the API implementation.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Index patient API
 +++++++++++++++++
 
