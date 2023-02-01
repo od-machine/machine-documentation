@@ -84,7 +84,7 @@ Upload patient API
    
    .. important:: Data format
 
-   The required date format is: `datetime.now().strftime('%Y-%m-%d-%H-%M-%S')`.
+      The required date format is: `datetime.now().strftime('%Y-%m-%d-%H-%M-%S')`.
 
    Check out the :ref:`ppm-microservice` section for further information about the API implementation.
 
