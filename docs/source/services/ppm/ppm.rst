@@ -32,8 +32,13 @@ Prerequisites
 
       Metadata file: ``PPM/Forms/Metadata//P10000/10000_2022-09-07-06-46-12.json``
 
-APIs
+APIs - FEMI ACCESS
 ~~~~
+
+.. important:: Authorization Required
+
+   Passwords and usernames are required to access these APIs.
+
 
 Upload patient API
 +++++++++++++++++
@@ -61,7 +66,7 @@ Upload patient API
       import requests
       import json
       from datetime import datetime
-      URL = 'https://<NETWORK>/api/v1/ppm/upload_ppm_patient_to_s3'
+      URL = 'http://dev-eu-central-1-femi-ppm.dev.internal.od-machine.com/api/v1/ppm/upload_ppm_patient_to_s3'
       data = json.load(open('body.json', 'rb'))
       response = requests.post(
             URL,
@@ -79,21 +84,6 @@ Upload patient API
       }
 
    Check out the :ref:`ppm-microservice` section for further information about the API implementation.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 Index patient API
 +++++++++++++++++
@@ -122,7 +112,7 @@ Index patient API
 
       import requests
       import json
-      URL = 'https://<NETWORK>/api/v1/ppm/index_ppm_patient'
+      URL = 'http://dev-eu-central-1-femi-ppm.dev.internal.od-machine.com/api/v1/ppm/index_ppm_patient'
       data = json.load(open('body.json', 'rb'))
       response = requests.post(
             URL,
@@ -136,8 +126,8 @@ Index patient API
 
       {
          "path_patient_details": "PPM/Forms/Patient_Data/P10000/10000_2022-09-07-06-46-12.json",
-         "host_client": "host_client_name", 
-         "client": "client_name"
+         "host_client": "femi", 
+         "client": "ayalon"
       }
 
    Check out the :ref:`ppm-microservice` section for further information about the API implementation.
@@ -170,7 +160,7 @@ Update recommendations API
 
       import requests
       import json
-      URL = 'https://<NETWORK>/api/v1/ppm/update_patients_conditions_and_recommendations'
+      URL = 'http://dev-eu-central-1-femi-ppm.dev.internal.od-machine.com/api/v1/ppm/update_patients_conditions_and_recommendations'
       data = json.load(open('body.json', 'rb'))
       response = requests.post(
             URL,
@@ -183,8 +173,8 @@ Update recommendations API
    .. sourcecode:: json
 
       {
-         "host_client": "host_client_name", 
-         "client": "client_name"
+         "host_client": "femi", 
+         "client": "ayalon"
       }
 
    Check out the :ref:`sync-microservice` section for further information about the API implementation.
