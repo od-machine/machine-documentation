@@ -28,7 +28,7 @@ Prerequisites
 
    For example for patient number 10000 that uploaded to S3 in 9/7/22 6:46:12 the S3 hierarchy is:
 
-      Questionnaire file: ``PPM/Forms/Patient_Data/P10000/10000_2022-09-07-06-46-12.json``ß
+      Questionnaire file: ``PPM/Forms/Patient_Data/P10000/10000_2022-09-07-06-46-12.json``
 
       Metadata file: ``PPM/Forms/Metadata//P10000/10000_2022-09-07-06-46-12.json``
 
@@ -79,6 +79,10 @@ Upload patient API
       }
 
    Check out the :ref:`ppm-microservice` section for further information about the API implementation.
+
+.. note::
+
+   The following APIs are automatically executed following the upload_ppm_patient_to_s3 API.
 
 Index patient API
 +++++++++++++++++
