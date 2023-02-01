@@ -28,7 +28,7 @@ Prerequisites
 
    For example for patient number 10000 that uploaded to S3 in 9/7/22 6:46:12 the S3 hierarchy is:
 
-      Questionnaire file: ``PPM/Forms/Patient_Data/P10000/10000_2022-09-07-06-46-12.json``ß
+      Questionnaire file: ``PPM/Forms/Patient_Data/P10000/10000_2022-09-07-06-46-12.json``
 
       Metadata file: ``PPM/Forms/Metadata//P10000/10000_2022-09-07-06-46-12.json``
 
@@ -64,13 +64,15 @@ Upload patient API
    .. sourcecode:: python
 
       import requests
+      from requests.auth import HTTPBasicAuth
       import json
       from datetime import datetime
       URL = 'http://dev-eu-central-1-femi-ppm.dev.internal.od-machine.com/api/v1/ppm/upload_ppm_patient_to_s3'
       data = json.load(open('body.json', 'rb'))
       response = requests.post(
             URL,
-            json=data
+            json=data,
+            auth=HTTPBasicAuth(<'usr'>, <'pass'>)
       )
       print(response.json())
 
@@ -84,6 +86,10 @@ Upload patient API
       }
 
    Check out the :ref:`ppm-microservice` section for further information about the API implementation.
+
+.. note::
+
+   The following APIs are automatically executed following the upload_ppm_patient_to_s3 API.
 
 Index patient API
 +++++++++++++++++
@@ -111,12 +117,14 @@ Index patient API
    .. sourcecode:: python
 
       import requests
+      from requests.auth import HTTPBasicAuth
       import json
       URL = 'http://dev-eu-central-1-femi-ppm.dev.internal.od-machine.com/api/v1/ppm/index_ppm_patient'
       data = json.load(open('body.json', 'rb'))
       response = requests.post(
             URL,
-            json=data
+            json=data,
+            auth=HTTPBasicAuth(<'usr'>, <'pass'>)
       )
       print(response.json())
 
@@ -159,12 +167,14 @@ Update recommendations API
    .. sourcecode:: python
 
       import requests
+      from requests.auth import HTTPBasicAuth
       import json
       URL = 'http://dev-eu-central-1-femi-ppm.dev.internal.od-machine.com/api/v1/ppm/update_patients_conditions_and_recommendations'
       data = json.load(open('body.json', 'rb'))
       response = requests.post(
             URL,
-            json=data
+            json=data,
+            auth=HTTPBasicAuth(<'usr'>, <'pass'>)
       )
       print(response.json())
 
