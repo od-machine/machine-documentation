@@ -84,5 +84,6 @@ Upload Optima Patient API
       "Fill_Date":"2022-09-28-16-22-26"
       }
 
+ Check out the :ref:`machine-ai` section for further information about the API implementation.
 
 
