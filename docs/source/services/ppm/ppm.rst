@@ -32,34 +32,25 @@ Prerequisites
 
       Metadata file: ``PPM/Forms/Metadata//P10000/10000_2022-09-07-06-46-12.json``
 
+
+Important files
+~~~~~~~~~~~~~~~
+
+.. toctree::
+   :maxdepth: 1
+
+   important_files
+
+
 APIs - FEMI ACCESS
-~~~~
+~~~~~~~~~~~~~~~~~~
 
 .. important:: Authorization Required
 
    Passwords and usernames are required to access these APIs.
 
-
 Upload patient API
 +++++++++++++++++
-
-introduction - Important files
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Answers format/types
-""""""""""""""""""""
-Files containing the required types of the fields in the questionnaire
-
-.. important:: Dates format
-
-   - the questionnaire json name: '{patient_id}_%Y-%m-%d-%H-%M-%S'
-
-   - 'Date_Of_Birth': '%Y-%m-%d'
-   - 'Fill_Date': '%Y-%m-%d-%H-%M-%S'
-
-`format_patients_answers_male.json <https://drive.google.com/file/d/1GOq6vJw7oBONFrHmSdsKslzcxbqj0LzR/view?usp=sharing>`_
-`format_patients_answers_female.json <https://drive.google.com/file/d/1Z7gXkbcWNI3tnbebq9Rbw21GzcBldZ2c/view?usp=sharing>`_
-
 
 :kbd:`POST /api/v1/ppm/upload_ppm_patient_to_s3`
 
