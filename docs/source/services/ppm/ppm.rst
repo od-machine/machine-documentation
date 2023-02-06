@@ -43,6 +43,24 @@ APIs - FEMI ACCESS
 Upload patient API
 +++++++++++++++++
 
+introduction - Important files
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Answers format/types
+""""""""""""""""""""
+Files containing the required types of the fields in the questionnaire
+
+.. important:: Dates format
+
+   - the questionnaire json name: '{patient_id}_%Y-%m-%d-%H-%M-%S'
+
+   - 'Date_Of_Birth': '%Y-%m-%d'
+   - 'Fill_Date': '%Y-%m-%d-%H-%M-%S'
+
+`format_patients_answers_male.json <https://drive.google.com/file/d/1GOq6vJw7oBONFrHmSdsKslzcxbqj0LzR/view?usp=sharing>`_
+`format_patients_answers_female.json <https://drive.google.com/file/d/1Z7gXkbcWNI3tnbebq9Rbw21GzcBldZ2c/view?usp=sharing>`_
+
+
 :kbd:`POST /api/v1/ppm/upload_ppm_patient_to_s3`
 
    Upload the patient's questionnaire file to the S3 bucket.
