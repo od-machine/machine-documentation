@@ -8,7 +8,10 @@ This microservice indexes data to ArangoDB.
 .. admonition:: TODO
    :class: error
 
-   add explanation about upload_ppm_patient_to_s3 API
+   add explanation about upload_ppm_patient_to_s3, get_ppm_recommendations_file APIs
 
 .. toctree::
    index_patients
+
+
+   
