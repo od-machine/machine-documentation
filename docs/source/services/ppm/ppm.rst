@@ -33,13 +33,13 @@ Prerequisites
       Metadata file: ``PPM/Forms/Metadata//P10000/10000_2022-09-07-06-46-12.json``
 
 
-Internal files
+Important files
 ~~~~~~~~~~~~~~~
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
-   internal_files
+   important_files
 
 
 APIs
