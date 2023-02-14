@@ -62,9 +62,9 @@ Shared files
 
    .. important:: Dates format
 
-   - the questionnaire json name: '{patient_id}_%Y-%m-%d-%H-%M-%S'
-   - 'Date_Of_Birth': '%Y-%m-%d'
-   - 'Fill_Date': '%Y-%m-%d-%H-%M-%S'
+      - the questionnaire json name: '{patient_id}_%Y-%m-%d-%H-%M-%S'
+      - 'Date_Of_Birth': '%Y-%m-%d'
+      - 'Fill_Date': '%Y-%m-%d-%H-%M-%S'
 
    `format_patients_answers_male.json <https://drive.google.com/file/d/1GOq6vJw7oBONFrHmSdsKslzcxbqj0LzR/view?usp=sharing>`_
 
@@ -97,9 +97,10 @@ Shared files
 * Full answers examples**
 
    A full questionnaire file containing all possible fields.
+   
    .. important:: 
 
-   Such files cannot be created because, for example, there is information from a current smoker and a former smoker. In practice, a person can only answer yes to one of the options.
+      Such files cannot be created because, for example, there is information from a current smoker and a former smoker. In practice, a person can only answer yes to one of the options.
 
    `answers_dict_male <https://drive.google.com/file/d/1iOzCjHubzkJCFlZ-e8lRhu-LUAbpMRiy/view?usp=sharing>`_
 
