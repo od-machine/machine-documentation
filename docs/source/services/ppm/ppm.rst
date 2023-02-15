@@ -202,3 +202,8 @@ Test profiles
 3. Upload the file to the S3 in the next path: ``s3://dev-machine-db/ppm/``
 
 4. Run the 'run_test_profiles' API using the `swagger <http://dev-eu-central-1-ppm.dev.internal.od-machine.com/apidocs/#/>`_ 
+
+5. The recommendations should appear here: `s3://ayalon-dev-eu-central-1/PPM/Recommendations <s3://ayalon-dev-eu-central-1/PPM/Recommendations/>`_ in the patient folder.
+
+For example: 
+The recommendations for patient number 1111 will be located at the following path: ``s3://ayalon-dev-eu-central-1/PPM/Recommendations/P41111/1111_2023-02-07-11-10-18.pdf``
