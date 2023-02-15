@@ -52,7 +52,9 @@ expect to receive the exact string of the country's name in English
 6. Hebrew questionnaire
 """"""""""""""""""""""
 
-`male_questionnaire <https://docs.google.com/document/d/1nC6BDZjqFciA9bm1ZDLMmQj8MRm0CaJ2/edit?usp=sharing&ouid=114881368951833308399&rtpof=true&sd=true>`_
+`male questionnaire with changes <https://docs.google.com/document/d/1PxI07ZBhQuV8WVvGG6ecEWilynl-S0C6/edit?usp=sharing&ouid=114881368951833308399&rtpof=true&sd=true>`_
+
+`male questionnaire without changes <https://docs.google.com/document/d/1HBA0OeHqcQhL_oHGa6gBUXVc2mPyUTWt/edit?usp=sharing&ouid=114881368951833308399&rtpof=true&sd=true>`_
 
 `female_questionnaire <https://docs.google.com/document/d/1duTAIC5O2aRF3BQZjtxEWriBjd-w4qlr/edit?usp=sharing&ouid=114881368951833308399&rtpof=true&sd=true>`_
 
