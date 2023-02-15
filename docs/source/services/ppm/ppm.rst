@@ -187,3 +187,18 @@ Update recommendations API
       }
 
    Check out the :ref:`sync-microservice` section for further information about the API implementation.
+
+
+
+Test profiles
+~~~~~~~~~~~~~
+
+1. Fill the profile's properties in the columns answers_2, answers_3.... in the format of answers_1
+
+   `test profiles <https://drive.google.com/drive/folders/1qrHG9whHDsGynPJi1xeYroUQz4E1HPPz?usp=sharing>`_
+
+2. Download the file as csv with the name : ``ppm_patients_test_cases.csv``
+
+3. Upload the file to the S3 in the next path: ``s3://dev-machine-db/ppm/``
+
+4. Run the 'run_test_profiles' API using the `swagger <http://dev-eu-central-1-ppm.dev.internal.od-machine.com/apidocs/#/>`_ 
