@@ -195,7 +195,7 @@ Test profiles
 
 1. Fill the profile's properties in the columns answers_2, answers_3.... (like the answers_1 format)
 
-   `test profiles male <https://drive.google.com/drive/folders/1qrHG9whHDsGynPJi1xeYroUQz4E1HPPz?usp=sharing>`_
+   `test profiles male <https://docs.google.com/spreadsheets/d/1CFeaXC7tjzxkMeyg7zOglCtbf0ZeSGgS/edit?usp=sharing&ouid=114881368951833308399&rtpof=true&sd=true>`_
 
    `test profiles female <https://docs.google.com/spreadsheets/d/1P_sGW4lTYFbjuApn0eVr9JGwtG0CAhIj5X1C_GeWYiQ/edit?usp=sharing>`_
 
