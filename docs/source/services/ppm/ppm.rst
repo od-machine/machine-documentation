@@ -119,7 +119,7 @@ Get recommendations pdf API
       from requests.auth import HTTPBasicAuth
 
       URL = 'http://dev-eu-central-1-femi-ppm.dev.internal.od-machine.com/api/v1/ppm/get_ppm_recommendations_file'
-      response = requests.post(
+      response = requests.get(
             URL,
             data={'patient_id': '12345'},
             auth=HTTPBasicAuth(<'usr'>, <'pass'>)
