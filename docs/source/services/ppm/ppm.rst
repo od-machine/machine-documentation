@@ -115,8 +115,8 @@ Index patient API
       URL = 'http://dev-eu-central-1-ppm.dev.internal.od-machine.com/api/v1/ppm/index_ppm_patient'
       data = {
                   "path_patient_details": "PPM/Forms/Patient_Data/P10000/10000_2022-09-07-06-46-12.json",
-                  "host_client": "host_client_name", 
-                  "client": "client_name"
+                  "host_client": host_client_name, 
+                  "client": client_name
              }
       
       response = requests.post(
@@ -158,8 +158,8 @@ Update recommendations API
       import json
       URL = 'http://dev-eu-central-1-ppm.dev.internal.od-machine.com/api/v1/ppm/update_patients_conditions_and_recommendations'
       data = {
-                  "host_client": "host_client_name", 
-                  "client": "client_name"
+                  "host_client": host_client_name, 
+                  "client": client_name
              }
       
       response = requests.post(
