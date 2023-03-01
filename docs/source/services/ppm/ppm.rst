@@ -121,7 +121,7 @@ Index patient API
       
       response = requests.post(
             URL,
-            json=data
+            data=data
       )
       
       print(response.json())
