@@ -67,6 +67,6 @@
 
    Password: ``maleQuest``
 
-   `female_decision_tree <https://secure-web.cisco.com/1QY__MfNWddyR6eI0J5nrtLVxZ_kjCRQc7v4XGAzEeRAH5OQkfisza1_ZqutzB5XgjH80lLE691czQ5YyanpO9BKGWLPUc7W3Zm-myDet0-WUadBsA6O6oaP0mCRvZCkuHCVVAzPk5ZeKoARo_p8RYU3--OKBlW7-VHToGop0swYVIZWnLALI3Trydidb_99joQppz9W98ZQ49je1IYTaLYXArYGgg5mCkcl4Jt_o1iDuaWD3xj77_wDNzuhEviwPFEYeUtx5Zb-e0ABSxJjpdcMQ4TaIRJso-AocrO-VF3iOjLutjBp1JiwiAayUnsBD/https%3A%2F%2Fwhimsical.com%2Ffemalequestionnaire-version-4-JmheGNeRfGMpEBwGpryttq>`_
+   `female_decision_tree <https://whimsical.com/femalequestionnaire-femi-SFPLi11s6bRrXh2NUL61dw>`_
 
-   Password: ``femaleQuest4``
+   Password: ``femaleQuest``
