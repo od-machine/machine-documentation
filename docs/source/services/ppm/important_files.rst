@@ -52,7 +52,7 @@
 6. Hebrew questionnaire
 """"""""""""""""""""""
 
-   Final: `male questionnaire with <https://docs.google.com/document/d/1HBA0OeHqcQhL_oHGa6gBUXVc2mPyUTWt/edit?usp=sharing&ouid=114881368951833308399&rtpof=true&sd=true>`_ 
+   Final: `male questionnaire <https://docs.google.com/document/d/1HBA0OeHqcQhL_oHGa6gBUXVc2mPyUTWt/edit?usp=sharing&ouid=114881368951833308399&rtpof=true&sd=true>`_ 
 
    `male questionnaire with changes <https://docs.google.com/document/d/1PxI07ZBhQuV8WVvGG6ecEWilynl-S0C6/edit?usp=sharing&ouid=114881368951833308399&rtpof=true&sd=true>`_
 
