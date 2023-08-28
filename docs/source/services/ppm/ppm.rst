@@ -99,7 +99,7 @@ Get recommendations pdf API
 
 :kbd:`GET /api/v1/ppm/get_ppm_recommendations_file`
 
-   Return the patient's recommendations pdf file from the S3 bucket.
+   Return the patient's json recommendation file from the S3 bucket.
 
    **Parameters**:
 
@@ -128,13 +128,9 @@ Get recommendations pdf API
    
    **Example response**:
 
-   .. sourcecode:: python
+   .. image:: json_example.png
 
-      HTTP/1.1 200 OK
-      Content-Type: application/pdf
-      Content-Disposition: inline; File_Name="sample.pdf"
-
-      [Binary content of the PDF file]
+   `json_example <https://drive.google.com/file/d/1npc0Byc0Df-FcUX6ehxtZjnAH0MJ9LIF/view?usp=drive_link>`_
 
 
    Check out the :ref:`ppm-microservice` section for further information about the API implementation.

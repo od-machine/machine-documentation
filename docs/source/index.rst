@@ -13,5 +13,5 @@ more details: `ODM Website <https://www.odmachine.com/>`_
 .. toctree::
    :maxdepth: 3
    
-   platform/platform
+   ..platform/platform
    services/services
